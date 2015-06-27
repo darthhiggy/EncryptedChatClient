@@ -71,7 +71,9 @@ public class Main
     {
         //prompt user to enter a port number
 
+
         //prompt user to enter a port number
+
 
         System.out.print("Enter the port number: ");
         Scanner scan = new Scanner(System.in);
@@ -130,6 +132,7 @@ public class Main
         in.readFully(iv);
 
         //generate the DESede key from a Ditte-Hellman generated shared secret. (Step 7)
+
 
         byte[] sessionKeyBytes = ka.generateSecret();
 

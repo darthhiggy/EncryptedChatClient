@@ -42,6 +42,7 @@ public class Receive implements Runnable
 
 
             //cipherIn.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }

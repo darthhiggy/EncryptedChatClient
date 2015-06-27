@@ -51,6 +51,7 @@ public class Send implements Runnable
                 theCharacter = System.in.read();
             }
            // cipherOut.close();
+
         } catch(Exception e)
         {
             e.printStackTrace();
